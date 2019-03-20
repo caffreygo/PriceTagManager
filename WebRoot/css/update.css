@@ -1,0 +1,32 @@
+@CHARSET "UTF-8";
+	textarea{
+		border:1.5px solid black;
+		width:220px;
+		height:60px;
+		border-radius:4px;
+		box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24);
+		}
+	textarea:hover{
+		box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24), 0 9px 25px 0 rgba(0,0,0,0.19);
+		}
+	#updateTable{
+		padding:20px 20px 20px 20px;
+		margin:8% auto; 
+		background: rgba(239, 239, 239, 0.8);
+	 	width:400px;
+	 	border-radius:10px;
+	 	box-shadow: 0 4px 6px 0 rgba(137,207,240,0.24);
+		}
+	#updateTable:hover {
+	    box-shadow: 0 4px 6px 0 rgba(233,150,122,0.24), 0 8px 16px 0 rgba(233,150,122,0.19);
+		}
+	#updateInput{
+		border:1.5px solid black;
+		width:200px;
+		height:35px;
+		border-radius:4px;
+		box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24);
+		}
+	#updateInput:hover {
+	    box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24), 0 9px 25px 0 rgba(0,0,0,0.19);
+		}

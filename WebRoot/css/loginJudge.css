@@ -1,0 +1,27 @@
+@CHARSET "UTF-8";
+	#main{
+		padding:20px 20px 20px 20px;
+		margin:15% auto; 
+		background: rgba(239, 239, 239, 0.5);
+	 	width:400px;
+	 	height:180px;
+	 	border-radius:10px;
+	 	box-shadow: 0 4px 6px 0 rgba(137,207,240,0.24);
+		}
+	#button{
+	    border: 2px solid black;
+	    border-radius:5px;
+	    background-color: white; 
+	    color: black;
+	    padding: 8px 10px;
+	    text-align: center;
+	    text-decoration: none;
+	    display: inline-block;
+	    font-size: 16px;	    
+		}
+	#button:hover {
+	    box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24), 0 9px 25px 0 rgba(0,0,0,0.19);
+		}
+	#main:hover {
+	    box-shadow: 0 4px 6px 0 rgba(233,150,122,0.24), 0 8px 16px 0 rgba(233,150,122,0.19);
+		}

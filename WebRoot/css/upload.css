@@ -1,0 +1,20 @@
+@CHARSET "UTF-8";
+	#uploadTable{
+		padding:20px 20px 20px 20px;
+		margin:12% auto; 
+		background: rgba(239, 239, 239, 0.8);
+	 	width:400px;
+	 	border-radius:10px;
+	 	box-shadow: 0 4px 6px 0 rgba(137,207,240,0.24);
+		}
+	#uploadTable:hover {
+	    box-shadow: 0 4px 6px 0 rgba(233,150,122,0.24), 0 8px 16px 0 rgba(233,150,122,0.19);
+		}
+	#uploadForm{
+		border:2px solid #405f80;
+		border-radius:10px;
+		height:60px;
+		width:380px;
+		padding:8px; 
+	}
+	
