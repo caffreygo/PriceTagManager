@@ -36,10 +36,11 @@ public class edit extends HttpServlet {
 		response.setContentType("text/html;charset=utf-8");
         /*设置响应头允许ajax跨域访问*/
         response.setHeader("Access-Control-Allow-Origin", "*");
+        /* 星号表示所有的异域请求都可以接受， */
         response.setCharacterEncoding("UTF-8");
         /* 解决中文乱码 */
         request.setCharacterEncoding("UTF-8");
-        /* 星号表示所有的异域请求都可以接受， */
+        
         response.setHeader("Access-Control-Allow-Methods", "GET,POST");
         int goodsId=Integer.parseInt(request.getParameter("goodsId"));
         String goodsName = request.getParameter("goodsName");
